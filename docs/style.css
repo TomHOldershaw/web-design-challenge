@@ -1,1 +1,5 @@
-h1, h2, h3, h4, h5, h6 { color: cornflowerblue}
+body { background-color: lightgray;}
+h1, h2, h3, h4, h5, h6 { color: cornflowerblue;}
+.navbar { background-color: cornflowerblue; color: cornsilk;}
+.nav-link, .navbar-brand {color:cornsilk;}
+.footer {text-align: center;}
