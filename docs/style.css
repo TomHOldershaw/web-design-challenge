@@ -1,7 +1,3 @@
 body { background-color: lightgray;}
-h1, h2, h3, h4, h5, h6 { color: cornflowerblue;}
-.navbar, .dropdown-menu { background-color: cornflowerblue;}
-.nav-link {color:cornsilk;}
-.footer {text-align: center;}
-.dropdown-item:hover {background-color: cornflowerblue;}
-.dropdown-toggle:focus {background-color: lightgray}
+h1, h2, h3, h4, h5, h6 { color: lightsteelblue;}
+.navbar {background-color: lightsteelblue;}
