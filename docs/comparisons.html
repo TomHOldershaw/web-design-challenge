@@ -6,33 +6,31 @@
 <body>
 
 <!--Navigation bar-->
-<nav class="navbar navbar-expand-lg">
- <a class="navbar-brand" href="index.html">Latitude</a> 
- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-         <a class="nav-link" href="comparisons.html">Comparisons</a> 
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" href="data.html">Data</a>
-      </li>
-      <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-          Plots
-          </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"></div>
-        <a class="nav-link" href="plot1.html">Plot 1</a>
-        <a class="nav-link" href="plot2.html">Plot 2</a>
-        <a class="nav-link" href="plot3.html">Plot 3</a>
-        <a class="nav-link" href="plot4.html">Plot 4</a>
-      </li>
-    </ul>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+   <a class="navbar-brand" href="index.html">Latitude</a> 
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+      <div class="navbar-nav">
+           <div class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+            Plots
+            </a>
+          <div class="dropdown-menu">
+          <a class="nav-link dropdown-item" href="plot1.html">Temperature</a>
+          <a class="nav-link dropdown-item" href="plot2.html">Humidity</a>
+          <a class="nav-link dropdown-item" href="plot3.html">Cloudiness</a>
+          <a class="nav-link dropdown-item" href="plot4.html">Wind speed</a>
+          </div>
+        </div>
+        <a class="nav-item nav-link" href="data.html">Data</a>
+        <a class="nav-item nav-link" href="comparisons.html">Comparisons</a> 
+  </div></div>
+  </nav>
   </div>
-</nav>
-
+  
 <!-- Start Bootstrap grid-->
 <div class="container bg-white">
 
@@ -59,5 +57,7 @@
     </div>
 </div>
 <hr><p class="footer">Latitude project</p>
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
